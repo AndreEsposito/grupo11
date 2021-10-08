@@ -1,0 +1,49 @@
+/* PÁGINA */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* NAVBAR */
+
+.menuFixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden;
+    background-color: #cfa530;
+}
+
+nav a {
+    float: left;
+    padding: 18px 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div a:hover {
+    background-color: #be8b24;
+    border-radius: 10px;
+}
+
+nav section div {
+    margin-right: 80px;
+}
+
+.navbar {
+    display: flex;
+    float: left;
+    margin-top: 42px;
+}
+
+#logo {
+    display: flex;
+    float: left;
+    margin-left: 80px;
+    margin-right: 210px;
+}
