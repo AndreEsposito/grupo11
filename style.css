@@ -6,6 +6,18 @@
 }
 
 
+/*TÍTULO */
+
+h1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 4;
+    overflow: hidden;
+}
+
+
 /* NAVBAR */
 
 .menuFixo {
@@ -15,6 +27,7 @@
     z-index: 4;
     overflow: hidden;
     background-color: #cfa530;
+    margin-top: 50px;
 }
 
 nav a {
@@ -46,4 +59,11 @@ nav section div {
     float: left;
     margin-left: 80px;
     margin-right: 210px;
+}
+
+
+/* MAIN */
+
+main {
+    margin-top: 10%;
 }
