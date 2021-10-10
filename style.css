@@ -81,6 +81,13 @@ nav section div {
 }
 
 /*Sobre */
+#tituloSobre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
 #equipe {
     display: grid;
     gap: 20px;
@@ -106,6 +113,12 @@ nav section div {
   margin-left: 4px;
   margin-right: 4px;
 }
+
+.sobreEquipe a img
+{
+  height: 30px;
+}
+
 /* MAIN */
 
 main {
