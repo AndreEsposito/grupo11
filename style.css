@@ -31,10 +31,14 @@ body{
 
 /*Conteudo*/
 #conteudo{
-    background-color: white;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+    background-color: rgba(216, 211, 211, 0.418);
     margin-left: 5%;
     margin-right: 5%;
-    padding: 2%;
 }
 
 /* NAVBAR */
@@ -108,15 +112,21 @@ nav section div {
     align-content: space-between;
 }
 
-.sobreEquipe p
-{
-  margin-left: 4px;
-  margin-right: 4px;
+.sobreEquipe h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
-.sobreEquipe a img
-{
-  height: 30px;
+.sobreEquipe p{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.sobreEquipe a img{    
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
 }
 
 /* MAIN */
