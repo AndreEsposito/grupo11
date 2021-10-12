@@ -16,13 +16,14 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
-    color: black;
-    background-color: #cfa530;
+    color: rgb(216, 214, 214);;
+    background-color: #771a1a;
     justify-content: center;
     align-content: center;
     text-align: center;
     display: flex;
     padding: 5px;
+    font-family: "Cooper Black";
 }
 
 
@@ -34,7 +35,7 @@ body {
     width: 100%;
     z-index: 4;
     overflow: hidden;
-    background-color: #cfa530;
+    background-color: #771a1a;;
     margin-top: 36.3px;
 }
 
@@ -48,7 +49,7 @@ nav a {
 }
 
 nav div a:hover {
-    background-color: #be8b24;
+    background-color: #cf3030;
     border-radius: 10px;
 }
 
@@ -218,7 +219,7 @@ main {
 #equipe {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     justify-content: space-between;
     padding: 20px;
@@ -230,7 +231,7 @@ main {
     box-shadow: grey 2px 2px 3px;
     padding: 20px;
     display: grid;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(35, auto);
     align-content: space-between;
 }
 
@@ -254,6 +255,6 @@ main {
 
 /* CONTATOS */
 
-#conteudoContatos iframe {
-    text-align: right;
+#formulario {
+    text-align: center;
 }
