@@ -16,7 +16,8 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
-    color: rgb(216, 214, 214);;
+    color: rgb(216, 214, 214);
+    ;
     background-color: #771a1a;
     justify-content: center;
     align-content: center;
@@ -35,7 +36,8 @@ body {
     width: 100%;
     z-index: 4;
     overflow: hidden;
-    background-color: #771a1a;;
+    background-color: #771a1a;
+    ;
     margin-top: 36.3px;
 }
 
@@ -53,12 +55,6 @@ nav div a:hover {
     border-radius: 10px;
 }
 
-/*
-nav section div {
-    margin-right: 80px;
-}
-*/
-
 .navbar {
     display: flex;
     padding-top: 40px;
@@ -68,8 +64,6 @@ nav section div {
 #logo {
     display: flex;
     float: left;
-    /*margin-left: 80px;
-    margin-right: 210px;*/
     margin-left: 5%;
     margin-right: 2%;
 }
@@ -108,15 +102,15 @@ main {
     width: 80%;
 }
 
+.noticias div {
+    margin: 80px;
+}
+
 
 /* NOTÍCIA 1 */
 
 .noticias #noticia1 {
     background-color: rgba(177, 170, 170, 0.418);
-}
-
-.noticias div {
-    margin: 80px;
 }
 
 #noticia1 h1 {
@@ -141,10 +135,6 @@ main {
 
 
 /* NOTÍCIA 2 */
-
-.noticias div {
-    margin: 80px;
-}
 
 #noticia2 h1 {
     font-size: 25px;
@@ -171,10 +161,6 @@ main {
     background-color: rgba(177, 170, 170, 0.418);
 }
 
-.noticias div {
-    margin: 80px;
-}
-
 #noticia3 h1 {
     font-size: 25px;
     padding-top: 20px;
@@ -188,10 +174,6 @@ main {
 
 
 /* NOTÍCIA 4 */
-
-.noticias div {
-    margin: 80px;
-}
 
 #noticia4 h1 {
     font-size: 25px;
@@ -207,8 +189,30 @@ main {
 
 /* NOTÍCIA 5 */
 
+.noticias #noticia5 {
+    background-color: rgba(177, 170, 170, 0.418);
+}
+
+#noticia5 h1 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#noticia5 iframe {
+    padding-top: 20px;
+}
+
 
 /* NOTÍCIA 6 */
+
+#noticia6 h1 {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#noticia6 iframe {
+    padding-top: 20px;
+}
 
 
 /*SOBRE */
