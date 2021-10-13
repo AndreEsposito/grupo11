@@ -53,20 +53,25 @@ nav div a:hover {
     border-radius: 10px;
 }
 
+/*
 nav section div {
     margin-right: 80px;
 }
+*/
 
 .navbar {
     display: flex;
     padding-top: 40px;
+    justify-content: space-around;
 }
 
 #logo {
     display: flex;
     float: left;
-    margin-left: 80px;
-    margin-right: 210px;
+    /*margin-left: 80px;
+    margin-right: 210px;*/
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 
