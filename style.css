@@ -106,6 +106,14 @@ main {
     margin: 80px;
 }
 
+.noticias div a {
+    color: rgba(68, 67, 67, 0.692);
+}
+
+.noticias div a:hover {
+    color: rgba(20, 17, 221, 0.719);
+}
+
 
 /* NOTÍCIA 1 */
 
